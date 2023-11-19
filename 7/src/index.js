@@ -1,23 +1,11 @@
 function a(a, b) {
-    if ( !isNaN( a ) && !isNaN( b ) ) {
-        return a === b;
-    } else {
-        return NaN;
-    }
+    return a === b;
 }
 
 function b(a, b) {
-    if ( !isNaN( a ) && !isNaN( b ) ) {
-        return (a + b) > 10;
-    } else {
-        return NaN;
-    }
+    return (a + b) > 10;
 }
 
 function c(num) {
-    if ( !isNaN( num ) ) {
-        return num < 0;
-    } else {
-        return NaN;
-    }
+    return num < 0;
 }

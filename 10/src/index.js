@@ -9,5 +9,4 @@ const calc = (result) => {
     alert( "Отдали половину жене, осталось " + result );
 };
 
-calc( Number( prompt( "Введите сумму зарплаты" ) ) )
-;
+calc( Number( prompt( "Введите сумму зарплаты" ) ) );

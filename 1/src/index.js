@@ -1,2 +1,1 @@
-let name = prompt( "Ваше имя?" );
-alert( name );
+alert( prompt( "Ваше имя?" ) );
